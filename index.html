@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<div class="topnav">
+  <a href="#home"> HOME</a>
+  <a href="#about"> ABOUT</a>
+  <a href="#contat"> CONTACT</a>
+</div>
+
+<form class="title" action="index.html" method="post">
+  <input type="text" id="title" name="title" placeholder="Write Your Preferred Title Here">
+</form>
+
+<div class="dropdown">
+  <button class="blog"> Blog</button>
+  <div class="dropdown-content">
+      <a href="#"> Cookies </a>
+      <a href="#"> Cakes </a>
+      <a href="#"> Mandazi </a>
+      <a href="#"> Treats </a>
+      <a href="#"> Bread </a>
+      <a href="#"> Pies </a>
+      <a href="#"> Chapatti </a>
+  </div>
+</div>
+
+<div class="date">
+  <p>22nd February 2024</p>
+</div>
+
+<div>
+<form class="writing-page" action="index.html" method="post">
+  <!-- textarea  -->
+  <label for="message"> Message:</label>
+  <textarea id="message" name="message" placeholder="Enter your message" rows="10"></textarea>
+<!-- submit button -->
+  <input type="submit" value="Submit">
+</form>
+</div>
+
+<div class="comments">
+  <h2>Comments</h2>
+
+<form class="comment-section" action="index.html" method="post">
+  <!-- Text input -->
+
+  <!-- <label for="comment"> Comments:</label> -->
+  <input type="text" id="comment" name="comment" placeholder="Add your comment here" >
+</form>
+
+<hr>
+</div>
+
+
+  <footer>
+
+      <div class="bottom-nav">
+        <ul class="nav flex-column">
+           <li class="nav-item mb-2"><a href="#" >Home</a></li>
+           <li class="nav-item mb-2"><a href="#" >Desserts</a></li>
+           <li class="nav-item mb-2"><a href="#" >Contact</a></li>
+           <li class="nav-item mb-2"><a href="#" >About</a></li>
+         </ul>
+      </div>
+
+      <p> © Copyright 2024 Vish Bakes Ltd.All rights reserved.</p>
+  </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
